@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Kanit&family=Lato:wght@300&family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
+
+
+/*resetando padrões*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #d9d9d9
+    
+}
+
+/*estilizando nav*/
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #011D53;
+    padding: 7px;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.navegacao{
+    font-family: 'Noto Serif', serif;
+    font-weight: 200px;
+    font-size: 20px;
+    font-style: none;
+    
+}
+
+.menu{
+    color: #FBFDFF;
+    background-color: transparent;
+}
+
+.menu:hover{
+    color: #60a9f3;
+    background-color: transparent;
+    
+}
+
+.logo{
+    width: 75px;
+}
+
+
+
+/*começo do main*/
+
+.conteudo{
+    margin-top: 100px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-primeiro-bloco{
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+
+.titulo-principal{
+    font-family: 'Noto Serif', serif;
+    color: #011D53;
+    font-size: 25px;
+}
+
+.subtitulo-principal{
+    font-family: 'Lato', sans-serif;
+    color: #0648C8;
+    font-size: 16px;
+
+}
+
+.imagem-principal{
+    height: 199px;
+}
+
+
+
+
+/*inicio da segunda parte*/
+.conteudo-segundario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px;
+}
+
+.titulo-segundario{
+    font-family: 'Noto Serif', serif;
+    color: #011D53;
+    font-size: 25px;
+    text-align: center;
+}
+
+.subtitulo-segundario{
+    font-family: 'Lato', sans-serif;
+    color: #0648C8;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.texto-segundo-bloco{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+.botao-primario{
+    font-family: 'Noto Serif', serif;
+    color: #FBFDFF;
+    background-color: #4062a5;
+    border: none;
+    box-shadow: black;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-left: -10px;
+}
+
+.botao-primario:hover{
+    background-color: #0f3b94;
+}
+
+.titulo-terceario{
+    font-family: 'Noto Serif', serif;
+    color: #011D53;
+    font-size: 25px;
+    text-align: center;
+}
+
+.subtitulo-terceario{
+    font-family: 'Lato', sans-serif;
+    color: #0648C8;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.texto-terceiro-bloco{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+.botao-segundario{
+    font-family: 'Noto Serif', serif;
+    color: #FBFDFF;
+    background-color: #4062a5;
+    border: none;
+    box-shadow: black;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-left: -10px;
+}
+
+.botao-segundario:hover{
+    background-color: #0f3b94;
+}
+
+/*parte do rodapé*/
+footer{
+    background-color: #011D53;
+    padding: 15px;
+    margin-top: 30px;  
+}
+
+.rodape{
+    text-align: center;
+    color: #FBFDFF;
+}
+
+@media screan and (max-width: 768px){
+    .conteudo-principal{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+    .conteudo-segundario{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+}
