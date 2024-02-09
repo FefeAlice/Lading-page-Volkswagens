@@ -198,7 +198,7 @@ footer{
 
 }
 
-@media screen and (max-width: 860px){
+@media screen and (max-width: 1080px){
     .conteudo-principal{
         display: flex;
         align-content: normal;
@@ -211,7 +211,6 @@ footer{
         text-aling: center;
     }
     .conteudo-segundario{
-        width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
         flex-flow: column;
