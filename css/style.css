@@ -59,7 +59,9 @@ body{
 /*começo do main*/
 
 .conteudo{
-    margin-top: 100px;
+    margin-top: 165px;
+    margin-bottom: 10px;
+    
 }
 
 .conteudo-principal{
@@ -183,7 +185,7 @@ body{
 /*parte do rodapé*/
 footer{
     background-color: #011D53;
-    padding: 15px;
+    padding-top: 10px;
     margin-top: 30px;  
     position: fixed;
     width: 100%;
@@ -193,14 +195,16 @@ footer{
 .rodape{
     text-align: center;
     color: #FBFDFF;
+
 }
 
 @media screan and (max-width: 768px){
     .conteudo-principal{
-        width: 100%;
+        display: flex;
+        align-content: normal;
+        flex-wrap: nowrap;
+        align-items: center;
         flex-direction: column;
-        flex-wrap: wrap;
-        flex-flow: column;
     }
     .conteudo-segundario{
         width: 100%;
