@@ -133,11 +133,12 @@ body{
     color: #FBFDFF;
     background-color: #4062a5;
     border: none;
-    box-shadow: black;
+    box-shadow: 4px 5px 6px #4b4a4a;
     border-radius: 20px;
-    width: 120px;
-    height: 40px;
+    width: 145px;
+    height: 45px;
     margin-left: -10px;
+    font-size: 15px;
 }
 
 .botao-primario:hover{
@@ -171,11 +172,12 @@ body{
     color: #FBFDFF;
     background-color: #4062a5;
     border: none;
-    box-shadow: black;
+    box-shadow: 4px 5px 6px #4b4a4a;
     border-radius: 20px;
-    width: 120px;
-    height: 40px;
+    width: 145px;
+    height: 45px;
     margin-left: -10px;
+    font-size: 15px;
 }
 
 .botao-segundario:hover{
@@ -196,6 +198,7 @@ footer{
     text-align: center;
     color: #FBFDFF;
     padding: 20px;
+    font-size: 17px;
 
 }
 
