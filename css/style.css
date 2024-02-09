@@ -103,7 +103,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 55px;
+    padding: 75px;
 }
 
 .titulo-segundario{
@@ -195,6 +195,7 @@ footer{
 .rodape{
     text-align: center;
     color: #FBFDFF;
+    padding: 20px;
 
 }
 
@@ -212,9 +213,6 @@ footer{
 
     }
 
-    .subtitulo-principal{
-        font-size: 13px;
-    }
     .conteudo-segundario{
         flex-direction: column;
         flex-wrap: wrap;
