@@ -198,18 +198,25 @@ footer{
 
 }
 
-@media screan and (max-width: 768px){
+@media screan and (max-width: 860px){
     .conteudo-principal{
         display: flex;
         align-content: normal;
-        flex-wrap: nowrap;
         align-items: center;
         flex-direction: column;
+        gap: 60px
     }
+
+    .texto-primeiro-bloco{
+        text-aling: center;
+    }
+    
     .conteudo-segundario{
         width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
         flex-flow: column;
+        aling-itens: center;
+        gap: 60px;
     }
 }
