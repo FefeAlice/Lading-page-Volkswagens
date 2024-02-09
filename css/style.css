@@ -209,6 +209,11 @@ footer{
 
     .texto-primeiro-bloco{
         text-align: center;
+
+    }
+
+    .subtitulo-principal{
+        font-size: 13px;
     }
     .conteudo-segundario{
         flex-direction: column;
